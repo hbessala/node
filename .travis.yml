@@ -1,0 +1,7 @@
+sudo: required
+services:
+    - docker
+
+script:
+    - docker build -t hervebessala/node .
+    - docker images hervebessala/node
